@@ -1,0 +1,8 @@
+.image-container > img, .image-container {
+    width: 265px;
+    height: 350px;
+}
+
+.image-container:hover {
+    box-shadow: 0px 20px 30px 3px rgba(164, 164, 164, 0.735);
+}

@@ -1,0 +1,12 @@
+export const LogoDark = require('./fashify-logo-black.png');
+export const LogoLight = require('./fashify-logo-white.png');
+export const Offer1 = require('./images/offer-1.jpg');
+export const Offer2 = require('./images/offer-2.jpg');
+export const Offer3 = require('./images/offer-3.jpg');
+export const Offer4 = require('./images/offer-4.jpg');
+export const Offer5 = require('./images/offer-5.jpg');
+export const Offer6 = require('./images/offer-6.jpg');
+export const Offer7 = require('./images/offer-7.jpg');
+export const Offer8 = require('./images/offer-8.jpg');
+export const Offer9 = require('./images/offer-9.jpg');
+export const Offer10 = require('./images/offer-10.jpg');
