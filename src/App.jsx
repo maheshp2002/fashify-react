@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomePage from './homepage/homepage';
 import Navbar from './navbar/navbar';
+import ProductDetails from './product-details/product-details';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         {/* Routes to handle different routes/pages */}
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/product-details/:imageCategory" element={<ProductDetails />} />
         </Routes>
       </div>
     </Router>

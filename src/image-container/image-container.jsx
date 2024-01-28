@@ -1,12 +1,12 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './image-container.css';
 
-const ImageContainer = ({ imageUrl }) => {
+const ImageContainer = ({ image }) => {
   return (
-    <div className="image-container rounded m-3">
-      {/* Your container content goes here */}
-      <img className='rounded' src={imageUrl} alt="ContainerImage" />
-    </div>
+    <NavLink to={`/product-details/${image.imageCategory}`} className="image-container rounded m-3">
+      <img className='rounded' src={image.imageUrl} alt="ContainerImage" />
+    </NavLink>
   );
 };
 
