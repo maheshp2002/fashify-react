@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './image-container.css';
+import './image-container.scss';
 
 const ImageContainer = ({ image }) => {
   return (

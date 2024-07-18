@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import React from 'react';
-import './navbar.css';
+import '../styles/navbar.scss';
 import { LogoDark } from '../assets/index';
 
 const Navbar = () => {

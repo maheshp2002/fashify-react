@@ -1,5 +1,5 @@
 import React from 'react';
-import './homepage.css';
+import './homepage.scss';
 import ImageContainer from '../image-container/image-container';
 import { Offer1, Offer10, Offer2, Offer3, Offer4, Offer5, Offer6, Offer7, Offer8, Offer9 } from '../assets/index';
 import ImageNameEnum from '../enums/image-name.enum';
